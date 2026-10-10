@@ -1,0 +1,196 @@
+{
+  "_about": "Notes for the ingredients knowledge file. Edit freely; run tools/build_knowledge.py afterwards.",
+  "lentils-red": {
+    "aka": "عدس مجروش، عدس شوربة",
+    "note": "Split, skinless lentils that cook fast and melt into soup (shorbat adas). No soaking. Simmer 15 to 20 minutes in about three times their volume of water."
+  },
+  "lentils-brown": {
+    "aka": "عدس حب، عدس أخضر",
+    "note": "Whole lentils that hold their shape, for kabsa, mujaddara and salads. No soaking. Simmer 25 to 30 minutes."
+  },
+  "green-peas-dry": {
+    "aka": "بازلاء ناشفة",
+    "note": "Whole dried peas: soak overnight, then simmer 45 to 60 minutes. Split peas need no soaking and take 30 to 40 minutes. Check which one the pack holds."
+  },
+  "mung-beans": {
+    "aka": "ماش",
+    "note": "No soaking needed, though 2 to 4 hours speeds them up. Simmer 30 to 40 minutes. Good in soups and with rice."
+  },
+  "black-eyed-beans": {
+    "aka": "لوبيا ناشفة",
+    "note": "Cook without soaking in 40 to 50 minutes, or about 30 minutes after a few hours of soaking."
+  },
+  "kidney-beans-dry": {
+    "aka": "فاصوليا حمراء ناشفة",
+    "note": "Soak 8 to 12 hours, then boil hard for at least 10 minutes before simmering 60 to 90 minutes. Raw or undercooked kidney beans contain a natural toxin, so never slow-cook them from raw."
+  },
+  "white-beans-dry": {
+    "aka": "فاصوليا بيضاء ناشفة",
+    "note": "Soak 8 to 12 hours and simmer 60 to 90 minutes until creamy. Classic in tomato stews."
+  },
+  "chickpeas-dry": {
+    "aka": "حمص ناشف",
+    "note": "Soak 8 to 12 hours (a pinch of baking soda helps), then simmer 60 to 90 minutes, or about 30 minutes in a pressure cooker. Much cheaper than canned; cook a big batch and freeze it."
+  },
+  "chana-dal": {
+    "aka": "تشانا دال",
+    "note": "Split, skinned chickpeas. Soak 30 minutes to 2 hours, then simmer 30 to 45 minutes. Good in soups and dals."
+  },
+  "chickpeas-canned": {
+    "aka": "حمص معلب",
+    "note": "Ready to use. Drain and rinse to cut the salt. A 380 to 400 g can gives roughly 240 g of chickpeas."
+  },
+  "foul-canned": {
+    "aka": "فول معلب، فول مدمس",
+    "note": "Cooked fava beans. Warm with garlic, lemon, cumin and tahini for breakfast. Rinse if you want less salt."
+  },
+  "kidney-beans-canned": {
+    "note": "Already cooked and safe to use straight away. Drain and rinse."
+  },
+  "white-beans-canned": {
+    "note": "Drain and rinse. Good in salads and quick stews."
+  },
+  "hummus-canned": {
+    "note": "Ready-made hummus with tahini. Usually vegan; check the label for dairy."
+  },
+  "oats": {
+    "aka": "شوفان",
+    "note": "Rolled oats cook in about 5 minutes, or soak overnight. Only gluten-free if the pack says so."
+  },
+  "rice-basmati": {
+    "note": "Rinse until the water runs clear. About 1 cup rice to 1½ cups water, 15 to 20 minutes, then rest 5 minutes."
+  },
+  "pasta": {
+    "note": "Dry durum-wheat pasta is usually egg-free. Check the label, especially for fresh or egg pasta."
+  },
+  "bulgur": {
+    "aka": "برغل",
+    "note": "Fine bulgur: soak in boiling water for 10 to 15 minutes (for tabbouleh). Coarse bulgur: simmer in twice its volume of water for 12 to 15 minutes."
+  },
+  "freekeh": {
+    "aka": "فريك",
+    "note": "Roasted green wheat with a smoky taste. Cracked freekeh takes about 2½ times its volume of water and 20 to 25 minutes; whole freekeh about 45 minutes."
+  },
+  "quinoa": {
+    "note": "Rinse first to remove the bitter coating. One part quinoa to two parts water, 15 minutes, then rest 5."
+  },
+  "tahini": {
+    "aka": "طحينية",
+    "note": "Ground sesame paste. Stir the oil back in before using and keep it somewhere cool. Adds calcium and protein to sauces, oats and dips."
+  },
+  "peanut-butter": {
+    "note": "The best ones are just peanuts and salt. Some brands add honey or whey, so check the label."
+  },
+  "peanuts": {
+    "note": "One of the cheapest protein snacks. Choose unsalted for everyday eating."
+  },
+  "almonds": {
+    "note": "Good for calcium and vitamin E. Toast in a dry pan for salads."
+  },
+  "pumpkin-seeds": {
+    "aka": "بذر القرع",
+    "note": "Among the highest-protein seeds. Toast lightly and sprinkle on salads or oats."
+  },
+  "chia": {
+    "note": "Soak 1 tablespoon in 3 tablespoons of water for 15 minutes to make a gel, or stir into oats. A plant source of omega-3."
+  },
+  "sesame": {
+    "note": "Toast lightly before using. Sprinkle on oats, salads and bread."
+  },
+  "oat-milk": {
+    "note": "Low in protein. If it replaces dairy milk, pick one fortified with calcium and vitamin B12."
+  },
+  "almond-milk": {
+    "note": "Low in protein and calories. Pick one fortified with calcium and vitamin B12."
+  },
+  "bread-arabic": {
+    "aka": "خبز لبناني، خبز صامولي",
+    "note": "Cheap and filling. Most plain Arabic bread is vegan, but some recipes use milk, so check the label."
+  },
+  "tortilla-brown": {
+    "note": "Check the label for milk or whey."
+  },
+  "dates": {
+    "note": "A natural sweetener for oats, smoothies and snacks. Khalas and Sukkari are common, affordable varieties."
+  },
+  "tomato": {
+    "note": "Its vitamin C helps the body absorb iron from beans and lentils."
+  },
+  "onion": {
+    "note": "The base of most savory dishes here. A bag is the cheapest way to buy."
+  },
+  "lemon": {
+    "note": "Its vitamin C helps the body absorb iron from beans and lentils, which is one reason Saudi cooking pairs them so well."
+  },
+  "garlic": {
+    "note": "Buy loose by weight for the best price."
+  },
+  "cucumber": {
+    "note": "For salads, and with hummus or foul at breakfast."
+  },
+  "bell-pepper": {
+    "note": "Adds vitamin C to bean dishes, which helps iron absorption."
+  },
+  "zucchini": {
+    "aka": "كوسا",
+    "note": "Roast or stuff it; cooks quickly."
+  },
+  "parsley": {
+    "note": "Bought by the bunch; very cheap."
+  },
+  "mint": {
+    "note": "Bought by the bunch; for salads and tea."
+  },
+  "coriander": {
+    "note": "Fresh coriander (cilantro), bought by the bunch."
+  },
+  "carrot": {
+    "note": "Adds sweetness and color to soups and stews."
+  },
+  "celery": {
+    "note": "Adds savory depth to soups and stews."
+  },
+  "green-onion": {
+    "aka": "بصل أخضر",
+    "note": "Bought by the bunch; for salads."
+  },
+  "spinach": {
+    "aka": "سبانخ، بالاك",
+    "note": "Rich in folate and iron. Eat with lemon or tomato to absorb more of the iron. Frozen spinach works in cooked dishes."
+  },
+  "avocado": {
+    "note": "Healthy fats. Good on beans and rice."
+  },
+  "tomato-paste": {
+    "note": "Concentrated tomato for kabsa-style dishes and stews."
+  },
+  "tomatoes-canned": {
+    "note": "Use in soups and stews when tomato sauce isn't available."
+  },
+  "olive-oil": {
+    "note": "For dressings and finishing. Vegetable oil is cheaper for frying."
+  },
+  "vegetable-oil": {
+    "note": "For everyday cooking and frying."
+  },
+  "cumin": {
+    "note": "Goes with almost every bean and lentil dish here."
+  },
+  "black-pepper": {
+    "note": "Buy loose or in small packs; it loses aroma over time."
+  },
+  "cardamom": {
+    "aka": "هيل",
+    "note": "For Arabic coffee, rice and oats. Buying whole and grinding keeps it fresh."
+  },
+  "chili-powder": {
+    "note": "Spice mixes vary: some kabsa and bharat mixes contain chicken stock powder, so check the label."
+  },
+  "date-syrup": {
+    "aka": "دبس",
+    "note": "A local sweetener for dressings, oats and tahini (dibs w tahini)."
+  },
+  "vinegar": {
+    "note": "For dressings and pickles; lemon juice works instead in most recipes."
+  }
+}

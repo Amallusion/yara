@@ -1,0 +1,108 @@
+﻿id,name_en,name_ar,category,store,brand,size,unit,price_sar,protein_per_100,checked,source,url,availability,updated_by
+lentils-red,Red lentils,عدس أحمر,legumes,Lulu,LuLu,400,g,3.50,24,2026-09-19,Lulu website,,,manual
+lentils-brown,Brown lentils (whole),عدس بني (حب),legumes,Lulu,LuLu,1,kg,11.00,24,2026-09-19,Lulu website,,,manual
+green-peas-dry,Dried green peas,بازلاء خضراء مجففة,legumes,Lulu,LuLu,500,g,4.95,24,2026-09-19,Lulu website,,,manual
+mung-beans,Mung beans (whole),ماش (حب),legumes,Lulu,LuLu,800,g,8.95,24,2026-09-19,Lulu website,,,manual
+black-eyed-beans,Black-eyed beans,لوبيا,legumes,Lulu,LuLu,500,g,6.95,23,2026-09-19,Lulu website,,,manual
+kidney-beans-dry,Red kidney beans (dry),فاصوليا حمراء,legumes,Lulu,LuLu,1,kg,13.95,23,2026-09-19,Lulu website,,,manual
+chickpeas-dry,Chickpeas (dry),حمص حب,legumes,Lulu,LuLu,500,g,5.99,20,2026-09-19,Lulu website,,,manual
+chana-dal,Split chickpeas (chana dal),حمص مجروش (تشانا دال),legumes,Lulu,LuLu,500,g,4.99,20,2026-09-19,Lulu website,,,manual
+chickpeas-canned,Chickpeas (canned),حمص معلب,legumes,Lulu,Luna,380,g,3.15,5,2026-09-19,Lulu website,,,manual
+foul-canned,Foul medames (canned),فول مدمس معلب,legumes,Lulu,Luna,380,g,2.65,5.5,2026-09-19,Lulu website,,,manual
+kidney-beans-canned,Red kidney beans (canned),فاصوليا حمراء معلبة,legumes,Lulu,Luna,400,g,4.75,5,2026-09-19,Lulu website,,,manual
+white-beans-canned,White beans (canned),فاصوليا بيضاء معلبة,legumes,Lulu,Luna,380,g,4.50,6,2026-09-19,Lulu website,,,manual
+hummus-canned,Hummus with tahini (canned),حمص بالطحينة معلب,legumes,Lulu,Chtaura,380,g,5.25,7,2026-09-19,Lulu website,,,manual
+tahini,Tahini,طحينة,nuts_seeds,Lulu,Kasih,900,g,30.45,17,2026-09-19,Lulu website,,,manual
+sesame,Sesame seeds,سمسم,nuts_seeds,Lulu,LuLu,200,g,4.75,18,2026-09-19,Lulu website,,,manual
+dates,Dates,تمر,produce,Lulu,Sukkari,500,g,9.95,2,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/sukkari-dates-500-g/p/1174547/?,,manual
+tomato,Tomatoes,طماطم,produce,Lulu,,1,kg,7.00,,2026-09-19,Lulu website,,,manual
+onion,Onions,بصل,produce,Lulu,,1,kg,8.00,,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/onion-saudi-1-kg/p/1792759-ea/?convtobuom=1000,,manual
+lemon,Lemons,ليمون,produce,Lulu,,500,g,4.00,,2026-09-19,Lulu website,,,manual
+garlic,Garlic,ثوم,produce,Lulu,,250,g,3.75,,2026-09-19,Lulu website,,,manual
+cucumber,Cucumbers,خيار,produce,Lulu,,500,g,3.50,,2026-09-19,Lulu website,,,manual
+bell-pepper,Green bell pepper,فلفل رومي أخضر,produce,Lulu,,500,g,6.50,,2026-09-19,Lulu website,,,manual
+zucchini,Zucchini,كوسة,produce,Lulu,,500,g,7.50,,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/zucchini-tray-pack-500-g/p/623717/?,,manual
+parsley,Parsley,بقدونس,produce,Lulu,,1,pcs,1.00,,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/parsley-leaves-1-bunch/p/2502792/?,,manual
+mint,Mint,نعناع,produce,Lulu,,1,pcs,1.00,,2026-09-19,Lulu website,,,manual
+coriander,Coriander leaves,كزبرة خضراء,produce,Lulu,,1,pcs,1.00,,2026-09-19,Lulu website,,,manual
+tomato-paste,Tomato paste,معجون طماطم,other,Lulu,Luna,400,g,5.25,,2026-09-19,Lulu website,,,manual
+olive-oil,Extra virgin olive oil,زيت زيتون بكر ممتاز,other,Lulu,Rahma,500,ml,21.50,,2026-09-19,Lulu website,,,manual
+cumin,Ground cumin,كمون مطحون,other,Lulu,LuLu,200,g,6.90,,2026-09-19,Lulu website,,,manual
+black-pepper,Ground black pepper,فلفل أسود مطحون,other,Lulu,LuLu,200,g,8.50,,2026-09-19,Lulu website,,,manual
+cardamom,Cardamom,هيل,other,Lulu,LuLu,100,g,23.95,,2026-09-19,Lulu website,,,manual
+lentils-red,Red lentils,عدس أحمر,legumes,Carrefour,,250,g,4.49,24,2026-09-19,Carrefour website,,,manual
+lentils-brown,Brown lentils (whole),عدس بني (حب),legumes,Carrefour,Afia,250,g,4.24,24,2026-09-19,Carrefour website,,,manual
+chickpeas-dry,Chickpeas (dry),حمص حب,legumes,Carrefour,,250,g,4.49,20,2026-09-19,Carrefour website,,,manual
+white-beans-dry,White beans (dry),فاصوليا بيضاء,legumes,Carrefour,Afia,250,g,8.49,22,2026-09-19,Carrefour website,,,manual
+freekeh,Freekeh,فريكة,grains,Carrefour,Afia,250,g,5.99,12,2026-09-19,Carrefour website,,,manual
+bulgur,Bulgur,برغل,grains,Carrefour,Carrefour Bio,400,g,9.25,12,2026-09-19,Carrefour website,,,manual
+quinoa,Quinoa,كينوا,grains,Carrefour,Super Food,500,g,28.00,14,2026-09-19,Carrefour website,,,manual
+pasta,Spaghetti,سباغيتي,grains,Carrefour,Verda,500,g,5.50,12,2026-09-19,Carrefour website,,,manual
+tahini,Tahini,طحينة,nuts_seeds,Carrefour,Al Nakheel,250,g,16.95,17,2026-09-19,Carrefour website,,,manual
+peanuts,Peanuts (roasted),فول سوداني محمص,nuts_seeds,Carrefour,,500,g,10.99,24,2026-09-19,Carrefour website,,,manual
+almonds,Almonds,لوز,nuts_seeds,Carrefour,Alagenda,500,g,32.25,21,2026-09-19,Carrefour website,,,manual
+pumpkin-seeds,Pumpkin seeds (shelled),بذور اليقطين المقشرة,nuts_seeds,Carrefour,,250,g,22.49,30,2026-09-19,Carrefour website,,,manual
+chia,Chia seeds,بذور الشيا,nuts_seeds,Carrefour,,250,g,17.49,17,2026-09-19,Carrefour website,,,manual
+sesame,Sesame seeds,سمسم,nuts_seeds,Carrefour,Yateb,500,g,16.45,18,2026-09-19,Carrefour website,,,manual
+oat-milk,Oat milk,حليب الشوفان,dairy_free,Carrefour,So Good,1,L,16.50,0.5,2026-09-19,Carrefour website,,,manual
+almond-milk,Almond milk,حليب اللوز,dairy_free,Carrefour,Duna,1,L,14.96,0.5,2026-09-19,Carrefour website,,,manual
+bread-arabic,Arabic bread (white),خبز عربي أبيض,bread,Carrefour,Wooden Bakery,510,g,1.20,,2026-09-19,Carrefour website,,,manual
+tortilla-brown,Brown tortilla wraps,خبز تورتيلا أسمر,bread,Carrefour,Fonte,250,g,8.25,,2026-09-19,Carrefour website,,,manual
+dates,Dates,تمر,produce,Carrefour,Tamara,1,kg,13.95,2,2026-09-19,Carrefour website,,,manual
+tomato,Tomatoes,طماطم,produce,Carrefour,,1,kg,3.50,,2026-09-19,Carrefour website,,,manual
+onion,Onions,بصل,produce,Carrefour,,1,kg,7.99,,2026-09-19,Carrefour website,,,manual
+lemon,Lemons,ليمون,produce,Carrefour,,1,kg,5.50,,2026-09-19,Carrefour website,,,manual
+garlic,Garlic,ثوم,produce,Carrefour,,250,g,3.50,,2026-09-19,Carrefour website,,,manual
+cucumber,Cucumbers,خيار,produce,Carrefour,,1,kg,5.50,,2026-09-19,Carrefour website,,,manual
+bell-pepper,Green bell pepper,فلفل رومي أخضر,produce,Carrefour,,1,kg,8.99,,2026-09-19,Carrefour website,,,manual
+zucchini,Zucchini,كوسة,produce,Carrefour,,1,kg,12.99,,2026-09-19,Carrefour website,,,manual
+olive-oil,Extra virgin olive oil,زيت زيتون بكر ممتاز,other,Carrefour,Rahma,250,ml,15.99,,2026-09-19,Carrefour website,,,manual
+cumin,Ground cumin,كمون مطحون,other,Carrefour,,250,g,12.49,,2026-09-19,Carrefour website,,,manual
+black-pepper,Ground black pepper,فلفل أسود مطحون,other,Carrefour,,250,g,20.99,,2026-09-19,Carrefour website,,,manual
+cardamom,Cardamom,هيل,other,Carrefour,,250,g,59.99,,2026-09-19,Carrefour website,,,manual
+lentils-red,Red lentils,عدس أحمر,legumes,Panda,Almehbah,800,g,13.99,24,2026-09-19,Panda website,,,manual
+white-beans-dry,White beans (dry),فاصوليا بيضاء,legumes,Panda,Zain,800,g,11.99,22,2026-09-19,Panda website,,,manual
+foul-canned,Foul medames (canned),فول مدمس معلب,legumes,Panda,California Garden,450,g,4.99,5.5,2026-09-19,Panda website,,,manual
+oats,Rolled oats,شوفان,grains,Panda,Panda,400,g,5.99,13,2026-09-19,Panda website,,,manual
+rice-basmati,Basmati rice,أرز بسمتي,grains,Panda,Abu Kass,5,kg,39.99,7.5,2026-09-19,Panda website,,,manual
+pasta,Spaghetti,سباغيتي,grains,Panda,Miza,400,g,2.50,12,2026-09-19,Panda website,,,manual
+tahini,Tahini,طحينة,nuts_seeds,Panda,Panda,500,g,14.99,17,2026-09-19,Panda website,,,manual
+peanut-butter,Peanut butter,زبدة الفول السوداني,nuts_seeds,Panda,Panda,510,g,10.99,24,2026-09-19,Panda website,,,manual
+bread-arabic,Arabic bread (white),خبز عربي أبيض,bread,Panda,Emad,310,g,2.00,,2026-09-19,Panda website,,,manual
+tortilla-brown,Brown tortilla wraps,خبز تورتيلا أسمر,bread,Panda,Fonte,250,g,8.25,,2026-09-19,Panda website,,,manual
+tomato,Tomatoes,طماطم,produce,Panda,,0.5,kg,2.50,,2026-09-19,Panda website,,,manual
+onion,Onions,بصل,produce,Panda,,1.8,kg,9.99,,2026-09-19,Panda website,,,manual
+lemon,Lemons,ليمون,produce,Panda,,1,kg,5.00,,2026-09-19,Panda website,,,manual
+garlic,Garlic,ثوم,produce,Panda,,250,g,2.50,,2026-09-19,Panda website,,,manual
+cucumber,Cucumbers,خيار,produce,Panda,,1.5,kg,8.98,,2026-09-19,Panda website,,,manual
+bell-pepper,Green bell pepper,فلفل رومي أخضر,produce,Panda,,250,g,2.25,,2026-09-19,Panda website,,,manual
+zucchini,Zucchini,كوسة,produce,Panda,,0.5,kg,8.00,,2026-09-19,Panda website,,,manual
+parsley,Parsley,بقدونس,produce,Panda,,160,g,1.50,,2026-09-19,Panda website,,,manual
+mint,Mint,نعناع,produce,Panda,,180,g,1.50,,2026-09-19,Panda website,,,manual
+coriander,Coriander leaves,كزبرة خضراء,produce,Panda,,160,g,1.50,,2026-09-19,Panda website,,,manual
+olive-oil,Extra virgin olive oil,زيت زيتون بكر ممتاز,other,Panda,Almarai,500,ml,23.99,,2026-09-19,Panda website,,,manual
+cumin,Ground cumin,كمون مطحون,other,Panda,Afia,155,g,11.25,,2026-09-19,Panda website,,,manual
+black-pepper,Ground black pepper,فلفل أسود مطحون,other,Panda,Esnad,100,g,5.00,,2026-09-19,Panda website,,,manual
+cardamom,Cardamom,هيل,other,Panda,Afia,250,g,99.99,,2026-09-19,Panda website,,,manual
+vegetable-oil,Vegetable oil,زيت نباتي,other,Lulu,LuLu,5,L,46.99,,2026-09-19,Lulu website,,,manual
+vegetable-oil,Vegetable oil,زيت نباتي,other,Panda,Dalal,1.5,L,10.00,,2026-09-19,Panda website,,,manual
+tomatoes-canned,Chopped tomatoes (canned),طماطم مقطعة معلبة,other,Lulu,Goody,400,g,5.95,,2026-09-19,Lulu website,,,manual
+tomatoes-canned,Chopped tomatoes (canned),طماطم مقطعة معلبة,other,Panda,Hanaa,400,g,4.99,,2026-09-19,Panda website,,,manual
+date-syrup,Date syrup,دبس التمر,other,Carrefour,Mazare Al Nakheel,350,g,17.95,,2026-09-19,Carrefour website,,,manual
+date-syrup,Date syrup,دبس التمر,other,Panda,Mazare Al Nakheel,350,g,17.99,,2026-09-19,Panda website,,,manual
+chili-powder,Chili powder,شطة مطحونة,other,Lulu,Gyma,150,g,3.00,,2026-09-19,Lulu website,,,manual
+chili-powder,Chili powder,شطة مطحونة,other,Carrefour,Afia,250,g,14.99,,2026-09-19,Carrefour website,,,manual
+carrot,Carrots,جزر,produce,Lulu,,500,g,4.50,,2026-09-19,Lulu website,,,manual
+carrot,Carrots,جزر,produce,Carrefour,,500,g,5.00,,2026-09-19,Carrefour website,,,manual
+carrot,Carrots,جزر,produce,Panda,,0.5,kg,4.00,,2026-09-19,Panda website,,,manual
+celery,Celery,كرفس,produce,Lulu,,500,g,4.98,,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/p/18562-ea/?convtobuom=500,,manual
+celery,Celery,كرفس,produce,Carrefour,,500,g,7.50,,2026-09-19,Carrefour website,,,manual
+green-onion,Green onions,بصل أخضر,produce,Lulu,,1,pcs,1.95,,2026-09-19,Lulu website,https://gcc.luluhypermarket.com/en-sa/spring-onion-leaves-1-bunch/p/726284/?,,manual
+green-onion,Green onions,بصل أخضر,produce,Panda,,400,g,1.99,,2026-09-19,Panda website,,,manual
+spinach,Spinach,سبانخ,produce,Lulu,,1,pcs,1.25,,2026-09-19,Lulu website,,,manual
+avocado,Avocado,أفوكادو,produce,Lulu,,1,kg,24.00,,2026-09-19,Lulu website,,,manual
+avocado,Avocado,أفوكادو,produce,Carrefour,,1,kg,24.99,,2026-09-19,Carrefour website,,,manual
+avocado,Avocado,أفوكادو,produce,Panda,,0.5,kg,11.99,,2026-09-19,Panda website,,,manual
+vinegar,White vinegar,خل أبيض,other,Lulu,LuLu,946,ml,5.95,,2026-09-19,Lulu website,,,manual
+vinegar,White vinegar,خل أبيض,other,Carrefour,Baidar,980,ml,6.00,,2026-09-19,Carrefour website,,,manual
+vinegar,White vinegar,خل أبيض,other,Panda,Panda,473,ml,3.99,,2026-09-19,Panda website,,,manual

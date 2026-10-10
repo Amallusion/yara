@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yara | Plant-based in Saudi Arabia</title>
+    <meta name="description" content="Real Saudi supermarket prices, the most protein for your riyal, local recipes, and an AI assistant that understands Saudi life." />
+    <meta name="theme-color" content="#20544a" />
+
+    <!-- Link previews on LinkedIn, WhatsApp and X. Replace YOUR-SITE-URL with your live address (see README). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Yara | Plant-based in Saudi Arabia" />
+    <meta property="og:description" content="Real Saudi supermarket prices, the most protein for your riyal, local recipes, and an AI assistant that understands Saudi life." />
+    <meta property="og:url" content="https://YOUR-SITE-URL/" />
+    <meta property="og:image" content="https://YOUR-SITE-URL/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Gelasio:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script>
+      // Switch to Arabic before the page paints, so Arabic visitors don't see a flash of English.
+      (function () {
+        var lang = null;
+        try {
+          var fromUrl = new URLSearchParams(location.search).get("lang");
+          if (fromUrl === "ar" || fromUrl === "en") lang = fromUrl;
+        } catch (e) {}
+        if (!lang) {
+          try {
+            var saved = localStorage.getItem("yara-lang");
+            if (saved === "ar" || saved === "en") lang = saved;
+          } catch (e) {}
+        }
+        if (!lang && (navigator.language || "").toLowerCase().indexOf("ar") === 0) lang = "ar";
+        if (lang === "ar") {
+          var root = document.documentElement;
+          root.lang = "ar";
+          root.dir = "rtl";
+          root.classList.add("lang-pending");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <img class="brand-mark" src="assets/logo.svg" alt="" width="40" height="40" />
+        <span class="brand-text">
+          <strong data-i18n="brandName">Yara</strong>
+          <small data-i18n="brandTagline">Plant-based in Saudi Arabia</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main" data-i18n-attr="aria-label:nav.label">
+        <a href="#protein" data-i18n="nav.protein">Protein per riyal</a>
+        <a href="#recipes" data-i18n="nav.recipes">Recipes</a>
+        <a href="#week" data-i18n="nav.week">Your week</a>
+        <a href="#basket" data-i18n="nav.basket">Basket</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="language-button" id="languageButton" type="button" lang="ar">العربية</button>
+        <button class="button button-small button-dark" type="button" data-open-chat data-i18n="askYara">Ask Yara</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad" id="top">
+        <div class="hero-copy">
+          <h1 data-i18n="hero.title">Plant-based eating in Saudi Arabia, minus the guesswork.</h1>
+          <p class="hero-lede" data-i18n="hero.lede">Real prices from Saudi supermarkets, the most protein for your riyal, local recipes, and an assistant who understands kabsa invitations as well as grocery lists.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-open-chat data-i18n="hero.ctaChat">Ask Yara what to cook</button>
+            <a class="button button-quiet" href="#protein" data-i18n="hero.ctaProtein">See protein per riyal</a>
+          </div>
+          <p class="hero-note">
+            <span class="check-mark" aria-hidden="true">✓</span>
+            <span data-i18n="hero.note">Every price is dated, so you know how fresh it is.</span>
+          </p>
+        </div>
+
+        <aside class="hero-card" aria-label="Example questions for Yara" data-i18n-attr="aria-label:hero.cardLabel">
+          <div class="hero-card-head">
+            <img src="assets/logo.svg" alt="" width="42" height="42" />
+            <h2 class="hero-card-title" data-i18n="hero.cardTitle">Try asking Yara</h2>
+          </div>
+          <ul class="question-list">
+            <li><button class="question" type="button" data-question="kabsa" data-i18n="hero.questions.kabsa">I'm invited to a family kabsa. How do I handle it politely?</button></li>
+            <li><button class="question" type="button" data-question="budget" data-i18n="hero.questions.budget">I have 40 SAR for the week. What should I buy?</button></li>
+            <li><button class="question" type="button" data-question="protein" data-i18n="hero.questions.protein">Where do I get the most protein for my riyal?</button></li>
+            <li><button class="question" type="button" data-question="iftar" data-i18n="hero.questions.iftar">What's an easy plant-based dish for iftar?</button></li>
+          </ul>
+          <p class="hero-card-footer" data-i18n="hero.cardFooter">Answers in Arabic or English, based on prices we checked ourselves.</p>
+        </aside>
+      </section>
+
+      <section class="stats-strip section-pad" id="stats" aria-label="Yara in numbers" data-i18n-attr="aria-label:stats.label">
+        <dl class="stats-list" id="statsList"></dl>
+      </section>
+
+      <section class="protein-section section-pad" id="protein" aria-labelledby="proteinTitle">
+        <div class="section-heading">
+          <h2 id="proteinTitle" data-i18n="protein.title">Most protein for your riyal</h2>
+          <p data-i18n="protein.intro">Grams of protein you get for every 1 SAR, based on the best-value pack we found for each product. Higher is better.</p>
+        </div>
+        <div class="ranking-wrap" id="proteinRanking" aria-live="polite"></div>
+        <p class="section-note">
+          <span data-i18n="protein.note">Prices change often and differ between branches, so check the shelf too.</span>
+          <span data-price-area></span>
+          <a class="report-link" href="#" target="_blank" rel="noopener" hidden data-report-price data-i18n="reportPrice">Seen a different price? Tell us</a>
+        </p>
+      </section>
+
+      <section class="section-pad section-block" id="recipes" aria-labelledby="recipesTitle">
+        <div class="section-heading">
+          <h2 id="recipesTitle" data-i18n="recipes.title">Recipes for your actual week</h2>
+          <p data-i18n="recipes.intro">Saudi-inspired meals with ingredients you can find, afford, and cook again.</p>
+        </div>
+
+        <div class="recipe-toolbar">
+          <label class="search-field">
+            <span class="sr-only" data-i18n="recipes.searchLabel">Search recipes</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2" /><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+            <input id="recipeSearch" type="search" autocomplete="off" placeholder="Search recipes or ingredients" data-i18n-attr="placeholder:recipes.searchPlaceholder" />
+          </label>
+          <div class="filter-pills" role="group" aria-label="Filter recipes by meal" data-i18n-attr="aria-label:recipes.filtersLabel">
+            <button class="filter-pill" type="button" data-meal="all" aria-pressed="true" data-i18n="recipes.meals.all">All</button>
+            <button class="filter-pill" type="button" data-meal="breakfast" aria-pressed="false" data-i18n="recipes.meals.breakfast">Breakfast</button>
+            <button class="filter-pill" type="button" data-meal="main" aria-pressed="false" data-i18n="recipes.meals.main">Lunch &amp; dinner</button>
+            <button class="filter-pill" type="button" data-meal="snack" aria-pressed="false" data-i18n="recipes.meals.snack">Snacks</button>
+          </div>
+          <label class="sort-field">
+            <span data-i18n="recipes.sortLabel">Sort by</span>
+            <select id="recipeSort">
+              <option value="value" data-i18n="recipes.sort.value">Most protein per riyal</option>
+              <option value="protein" data-i18n="recipes.sort.protein">Most protein</option>
+              <option value="cost" data-i18n="recipes.sort.cost">Lowest cost</option>
+              <option value="time" data-i18n="recipes.sort.time">Quickest</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="recipe-grid" id="recipeGrid"></div>
+
+        <div class="recipes-footer">
+          <button class="button button-quiet" id="printGuideButton" type="button" data-i18n="recipes.print">Print recipe guide</button>
+        </div>
+      </section>
+
+      <section class="week-section section-pad" id="week" aria-labelledby="weekTitle">
+        <div class="section-heading">
+          <h2 id="weekTitle" data-i18n="week.title">A plant-based week, priced</h2>
+          <p data-i18n="week.intro">Seven days where every meal is one of our recipes. Protein comes from the recipes themselves, and cost from today's best prices.</p>
+        </div>
+        <dl class="week-summary" id="weekSummary"></dl>
+        <ol class="week-grid" id="weekGrid"></ol>
+        <p class="week-note" data-i18n="week.note">Costs are per serving at the best price per kg.</p>
+      </section>
+
+      <section class="know-section section-pad" id="know" aria-labelledby="knowTitle">
+        <h2 id="knowTitle" data-i18n="know.title">Two things worth knowing</h2>
+        <div class="know-grid">
+          <article class="know-card">
+            <h3 data-i18n="know.shelfTitle">Check the label</h3>
+            <p data-i18n="know.shelfIntro">Most of what's here is plant-based by nature. These vary by brand, so read the ingredients:</p>
+            <ul>
+              <li data-i18n="know.shelf.0">Bread and tortillas: milk or milk powder.</li>
+              <li data-i18n="know.shelf.1">Pasta: egg, especially fresh pasta.</li>
+              <li data-i18n="know.shelf.2">Peanut butter and spreads: honey or whey.</li>
+              <li data-i18n="know.shelf.3">Stock cubes and spice mixes: chicken fat or chicken flavor.</li>
+              <li data-i18n="know.shelf.4">Sweets and jellies: gelatin.</li>
+            </ul>
+          </article>
+          <article class="know-card">
+            <h3 data-i18n="know.nutrientsTitle">Nutrients to plan for</h3>
+            <ul>
+              <li data-i18n="know.nutrients.0">Vitamin B12 isn't reliably found in plant foods.</li>
+              <li data-i18n="know.nutrients.1">Vitamin D deficiency is common in Saudi Arabia.</li>
+              <li data-i18n="know.nutrients.2">Iron from beans and lentils is absorbed better with vitamin C.</li>
+              <li data-i18n="know.nutrients.3">Calcium: tahini, almonds, and fortified plant milk. Omega-3: chia seeds and walnuts.</li>
+            </ul>
+            <p class="know-disclaimer" data-i18n="know.disclaimer">General information, not medical advice.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="market-section section-pad" id="basket" aria-labelledby="basketTitle">
+        <div class="section-heading">
+          <h2 id="basketTitle" data-i18n="basket.title">Build your basket</h2>
+          <p data-i18n="basket.intro">Pick what you need. We add it up using the lowest price we found for each item.</p>
+        </div>
+
+        <div class="market-layout">
+          <div class="market-panel ingredient-panel">
+            <h3 class="panel-title" data-i18n="basket.listTitle">What do you need?</h3>
+            <div class="basket-list" id="basketList" role="group" aria-label="Products" data-i18n-attr="aria-label:basket.listLabel"></div>
+          </div>
+
+          <aside class="market-panel basket-panel">
+            <div aria-live="polite" aria-atomic="true">
+              <p class="basket-label" data-i18n="basket.total">Your basket</p>
+              <p class="basket-total"><span id="basketCurrency">SAR</span><strong id="basketTotal">0.00</strong></p>
+              <p class="basket-status" id="basketStatus"></p>
+            </div>
+            <div class="budget-row">
+              <label for="budgetInput" data-i18n="basket.budget">Your budget</label>
+              <div class="budget-input">
+                <span id="budgetCurrency">SAR</span>
+                <input id="budgetInput" type="text" inputmode="decimal" autocomplete="off" value="40" />
+              </div>
+            </div>
+            <div class="budget-meter" aria-hidden="true"><span id="budgetMeter"></span></div>
+            <p class="budget-status" id="budgetStatus" aria-live="polite"></p>
+            <p class="small-note" id="basketChecked"></p>
+            <p class="small-note" data-price-area></p>
+            <a class="report-link" href="#" target="_blank" rel="noopener" hidden data-report-price data-i18n="reportPrice">Seen a different price? Tell us</a>
+            <button class="button button-light full-width" id="basketChatButton" type="button" data-i18n="basket.ask">Ask Yara about this basket</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="how-section section-pad" id="how" aria-labelledby="howTitle">
+        <div class="how-intro">
+          <h2 id="howTitle" data-i18n="how.title">Your questions, grounded answers</h2>
+          <p data-i18n="how.intro">Yara answers from data we collected and checked ourselves, so her advice fits real Saudi shelves and real Saudi life.</p>
+          <button class="button button-primary" type="button" data-open-chat data-i18n="askYara">Ask Yara</button>
+        </div>
+        <ol class="how-grid">
+          <li class="how-card">
+            <span class="how-num" aria-hidden="true">1</span>
+            <h3 data-i18n="how.steps.0.title">Tell Yara what you need</h3>
+            <p data-i18n="how.steps.0.text">A budget, a protein goal, a social situation, or just "I'm hungry."</p>
+          </li>
+          <li class="how-card">
+            <span class="how-num" aria-hidden="true">2</span>
+            <h3 data-i18n="how.steps.1.title">She checks the options</h3>
+            <p data-i18n="how.steps.1.text">Yara looks through our product list, ranked by protein per riyal, with exact prices and stores.</p>
+          </li>
+          <li class="how-card">
+            <span class="how-num" aria-hidden="true">3</span>
+            <h3 data-i18n="how.steps.2.title">You get a real plan</h3>
+            <p data-i18n="how.steps.2.text">Meals with names, recipes you can make tonight, and prices you can check.</p>
+          </li>
+          <li class="how-card">
+            <span class="how-num" aria-hidden="true">4</span>
+            <h3 data-i18n="how.steps.3.title">Social situations, handled</h3>
+            <p data-i18n="how.steps.3.text">Kabsa gatherings, Ramadan iftar, university cafeterias: Yara knows Saudi life and helps you through it.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="faq-section section-pad" id="faq" aria-labelledby="faqTitle">
+        <h2 id="faqTitle" data-i18n="faq.title">Questions people ask</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n="faq.items.0.q">Question</summary>
+            <p data-i18n="faq.items.0.a">Answer</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.items.1.q">Question</summary>
+            <p data-i18n="faq.items.1.a">Answer</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.items.2.q">Question</summary>
+            <p data-i18n="faq.items.2.a">Answer</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.items.3.q">Question</summary>
+            <p data-i18n="faq.items.3.a">Answer</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.items.4.q">Question</summary>
+            <p data-i18n="faq.items.4.a">Answer</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="dedication section-pad" id="about" aria-labelledby="dedicationTitle">
+        <div class="dedication-inner">
+          <svg class="dedication-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1.5c.7 5 2.4 6.8 7.6 7.5-5.2.7-6.9 2.5-7.6 7.5-.7-5-2.4-6.8-7.6-7.5C9.6 8.3 11.3 6.5 12 1.5Z" fill="currentColor" /></svg>
+          <h2 id="dedicationTitle" data-i18n="dedication.title">Named after the real Yara</h2>
+          <p data-i18n="dedication.p1">This project was inspired by Yara, the creator behind The Saudi Vegan. Her recipes, her honesty about the challenges of plant-based living in Saudi Arabia, and her joy for food shaped every scenario, every social tip, and every meal idea in this project. She was doing by hand what we're trying to help everyone do instantly.</p>
+          <p data-i18n="dedication.p2">Yara the assistant carries her name because she carries her spirit: warm, practical, grounded in Saudi reality, and always in your corner.</p>
+          <p class="signature" data-credits></p>
+          <a class="text-link" href="https://thesaudivegan.com" target="_blank" rel="noopener" data-i18n="dedication.link">Visit The Saudi Vegan</a>
+        </div>
+      </section>
+      <section class="sources-section section-pad" id="sources" aria-labelledby="sourcesTitle">
+        <h2 id="sourcesTitle" data-i18n="sources.title">Sources and credits</h2>
+        <ul>
+          <li data-i18n="sources.items.0">Source</li>
+          <li data-i18n="sources.items.1">Source</li>
+          <li data-i18n="sources.items.2">Source</li>
+          <li data-i18n="sources.items.3">Source</li>
+        </ul>
+        <a class="text-link" href="https://myplate.food/vegan-recipes" target="_blank" rel="noopener">MyPlate.food</a>
+      </section>
+    </main>
+
+    <footer class="site-footer section-pad">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="" width="36" height="36" />
+        <div>
+          <strong data-i18n="brandName">Yara</strong>
+          <p data-i18n="footer.tagline">Built to make plant-based eating in Saudi Arabia feel local, affordable, and doable.</p>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <p data-i18n="footer.pricesNote">Prices are a snapshot and change often. Check in store before you buy.</p>
+        <p class="footer-credits" data-credits></p>
+        <a class="footer-link" id="githubLink" href="#" hidden data-i18n="footer.github">Code on GitHub</a>
+      </div>
+    </footer>
+
+    <dialog class="modal recipe-modal" id="recipeModal" aria-labelledby="recipeModalTitle">
+      <button class="modal-close" type="button" data-close-dialog aria-label="Close recipe" data-i18n-attr="aria-label:recipes.close">×</button>
+      <div id="recipeModalContent"></div>
+    </dialog>
+
+    <dialog class="modal chat-modal" id="chatModal" aria-labelledby="chatModalTitle">
+      <button class="modal-close" type="button" data-close-dialog aria-label="Close chat" data-i18n-attr="aria-label:chat.close">×</button>
+      <div class="chat-modal-head">
+        <img src="assets/logo.svg" alt="" width="42" height="42" />
+        <div>
+          <p class="panel-kicker" data-i18n="chat.kicker">Your kitchen companion</p>
+          <h2 id="chatModalTitle" data-i18n="chat.title">Ask Yara</h2>
+        </div>
+      </div>
+      <p class="chat-notice" id="chatNotice" role="status" hidden></p>
+      <div class="chat-frame" id="chatFrame"></div>
+    </dialog>
+
+    <div class="print-guide" id="printGuide"></div>
+
+    <script src="config.js"></script>
+    <script src="i18n.js"></script>
+    <script src="data/recipes.js"></script>
+    <script src="data/week.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

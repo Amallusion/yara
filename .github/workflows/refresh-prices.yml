@@ -1,0 +1,60 @@
+# Every night: visits the product links in your price sheet, reads each store's price,
+# and saves data/prices.csv (what the website and chatbot read) plus data/price-report.md.
+# Setup: README, part 4.
+name: Refresh prices
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every night at 3:00 am Riyadh time
+  workflow_dispatch: # adds a "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the robot still works
+        run: python -m unittest discover -s robot
+
+      - name: Install the browser helper (for store pages built with JavaScript)
+        continue-on-error: true
+        run: |
+          pip install -r robot/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Visit the product links and update prices
+        env:
+          SHEET_URL: ${{ vars.PRICES_SHEET_URL }}
+          PRICE_ROBOT_CONTACT: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          if [ -z "$SHEET_URL" ]; then
+            echo "::error::Add a repository variable named PRICES_SHEET_URL (README, part 4)."
+            exit 1
+          fi
+          python robot/refresh_prices.py --sheet "$SHEET_URL" --browser
+          cat data/price-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save the new prices
+        run: |
+          git add data/prices.csv data/price-report.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update prices"
+          git push
